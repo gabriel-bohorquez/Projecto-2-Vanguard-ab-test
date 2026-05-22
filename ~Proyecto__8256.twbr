@@ -6,6 +6,8 @@
     <AccessibleZoneTabOrder />
     <AnimationOnByDefault />
     <AutoCreateAndUpdateDSDPhoneLayouts />
+    <BasicButtonObject />
+    <CollapsiblePane />
     <IntuitiveSorting />
     <IntuitiveSorting_SP2 />
     <MarkAnimation />
@@ -20,6 +22,7 @@
     <WindowsPersistSimpleIdentifiers />
     <WorksheetBackgroundTransparency />
     <ZoneBackgroundTransparency />
+    <ZoneVisibilityControl />
   </document-format-change-manifest>
   <preferences>
     <preference name='ui.encoding.shelf.height' value='24' />
@@ -747,165 +750,165 @@
               <bucket>%null%</bucket>
             </map>
           </encoding>
-          <encoding attr='color' field='[none:clnt_tenure_yr:ok]' type='palette'>
-            <map to='#499894'>
-              <bucket>10</bucket>
+          <encoding attr='color' field='[none:clnt_tenure_yr:ok]' palette='blue_10_0' type='palette'>
+            <map to='#2a5783'>
+              <bucket>55</bucket>
             </map>
-            <map to='#499894'>
-              <bucket>30</bucket>
+            <map to='#2c5985'>
+              <bucket>51</bucket>
             </map>
-            <map to='#499894'>
+            <map to='#2f5c88'>
               <bucket>50</bucket>
             </map>
-            <map to='#4e79a7'>
-              <bucket>2</bucket>
+            <map to='#315e8b'>
+              <bucket>49</bucket>
             </map>
-            <map to='#4e79a7'>
-              <bucket>22</bucket>
+            <map to='#34618e'>
+              <bucket>48</bucket>
             </map>
-            <map to='#4e79a7'>
-              <bucket>42</bucket>
+            <map to='#376491'>
+              <bucket>47</bucket>
             </map>
-            <map to='#59a14f'>
-              <bucket>6</bucket>
-            </map>
-            <map to='#59a14f'>
-              <bucket>26</bucket>
-            </map>
-            <map to='#59a14f'>
+            <map to='#396693'>
               <bucket>46</bucket>
             </map>
-            <map to='#79706e'>
-              <bucket>14</bucket>
+            <map to='#3b6996'>
+              <bucket>45</bucket>
             </map>
-            <map to='#79706e'>
+            <map to='#3d6b99'>
+              <bucket>43</bucket>
+            </map>
+            <map to='#406e9b'>
+              <bucket>42</bucket>
+            </map>
+            <map to='#42709e'>
+              <bucket>41</bucket>
+            </map>
+            <map to='#4473a1'>
+              <bucket>40</bucket>
+            </map>
+            <map to='#4675a3'>
+              <bucket>39</bucket>
+            </map>
+            <map to='#4878a6'>
+              <bucket>38</bucket>
+            </map>
+            <map to='#4a7ba9'>
+              <bucket>37</bucket>
+            </map>
+            <map to='#4c7dab'>
+              <bucket>36</bucket>
+            </map>
+            <map to='#4f80ad'>
+              <bucket>35</bucket>
+            </map>
+            <map to='#5283b0'>
               <bucket>34</bucket>
+            </map>
+            <map to='#5485b2'>
+              <bucket>33</bucket>
+            </map>
+            <map to='#5788b4'>
+              <bucket>32</bucket>
+            </map>
+            <map to='#5a8bb6'>
+              <bucket>31</bucket>
+            </map>
+            <map to='#5d8eb9'>
+              <bucket>30</bucket>
+            </map>
+            <map to='#5f90bb'>
+              <bucket>29</bucket>
+            </map>
+            <map to='#6293bd'>
+              <bucket>28</bucket>
+            </map>
+            <map to='#6596bf'>
+              <bucket>27</bucket>
+            </map>
+            <map to='#6899c2'>
+              <bucket>26</bucket>
+            </map>
+            <map to='#6b9cc4'>
+              <bucket>25</bucket>
+            </map>
+            <map to='#6e9fc6'>
+              <bucket>24</bucket>
+            </map>
+            <map to='#71a2c8'>
+              <bucket>23</bucket>
+            </map>
+            <map to='#73a4cb'>
+              <bucket>22</bucket>
+            </map>
+            <map to='#76a7cd'>
+              <bucket>21</bucket>
             </map>
             <map to='#79706e'>
               <bucket>62</bucket>
             </map>
-            <map to='#86bcb6'>
-              <bucket>11</bucket>
-            </map>
-            <map to='#86bcb6'>
-              <bucket>31</bucket>
-            </map>
-            <map to='#86bcb6'>
-              <bucket>51</bucket>
-            </map>
-            <map to='#8cd17d'>
-              <bucket>7</bucket>
-            </map>
-            <map to='#8cd17d'>
-              <bucket>27</bucket>
-            </map>
-            <map to='#8cd17d'>
-              <bucket>47</bucket>
-            </map>
-            <map to='#9d7660'>
+            <map to='#79aacf'>
               <bucket>20</bucket>
             </map>
-            <map to='#9d7660'>
-              <bucket>40</bucket>
-            </map>
-            <map to='#a0cbe8'>
-              <bucket>3</bucket>
-            </map>
-            <map to='#a0cbe8'>
-              <bucket>23</bucket>
-            </map>
-            <map to='#a0cbe8'>
-              <bucket>43</bucket>
-            </map>
-            <map to='#b07aa1'>
-              <bucket>18</bucket>
-            </map>
-            <map to='#b07aa1'>
-              <bucket>38</bucket>
-            </map>
-            <map to='#b6992d'>
-              <bucket>8</bucket>
-            </map>
-            <map to='#b6992d'>
-              <bucket>28</bucket>
-            </map>
-            <map to='#b6992d'>
-              <bucket>48</bucket>
-            </map>
-            <map to='#bab0ac'>
-              <bucket>15</bucket>
-            </map>
-            <map to='#bab0ac'>
-              <bucket>35</bucket>
-            </map>
-            <map to='#d37295'>
-              <bucket>16</bucket>
-            </map>
-            <map to='#d37295'>
-              <bucket>36</bucket>
-            </map>
-            <map to='#d4a6c8'>
+            <map to='#7cacd1'>
               <bucket>19</bucket>
             </map>
-            <map to='#d4a6c8'>
-              <bucket>39</bucket>
+            <map to='#7fafd4'>
+              <bucket>18</bucket>
             </map>
-            <map to='#d7b5a6'>
-              <bucket>21</bucket>
+            <map to='#82b2d6'>
+              <bucket>17</bucket>
             </map>
-            <map to='#d7b5a6'>
-              <bucket>41</bucket>
+            <map to='#85b5d8'>
+              <bucket>16</bucket>
             </map>
-            <map to='#e15759'>
+            <map to='#88b8da'>
+              <bucket>15</bucket>
+            </map>
+            <map to='#8cbbdc'>
+              <bucket>14</bucket>
+            </map>
+            <map to='#8fbede'>
+              <bucket>13</bucket>
+            </map>
+            <map to='#93c1e0'>
               <bucket>12</bucket>
             </map>
-            <map to='#e15759'>
-              <bucket>32</bucket>
+            <map to='#96c4e2'>
+              <bucket>11</bucket>
+            </map>
+            <map to='#9ac7e4'>
+              <bucket>10</bucket>
+            </map>
+            <map to='#9ecae6'>
+              <bucket>9</bucket>
+            </map>
+            <map to='#a1cce7'>
+              <bucket>8</bucket>
+            </map>
+            <map to='#a5cfe9'>
+              <bucket>7</bucket>
+            </map>
+            <map to='#a9d2eb'>
+              <bucket>6</bucket>
+            </map>
+            <map to='#add5ec'>
+              <bucket>5</bucket>
+            </map>
+            <map to='#b1d7ee'>
+              <bucket>4</bucket>
+            </map>
+            <map to='#b5daef'>
+              <bucket>3</bucket>
+            </map>
+            <map to='#b9ddf1'>
+              <bucket>2</bucket>
             </map>
             <map to='#e15759'>
               <bucket>52</bucket>
             </map>
-            <map to='#f1ce63'>
-              <bucket>9</bucket>
-            </map>
-            <map to='#f1ce63'>
-              <bucket>29</bucket>
-            </map>
-            <map to='#f1ce63'>
-              <bucket>49</bucket>
-            </map>
-            <map to='#f28e2b'>
-              <bucket>4</bucket>
-            </map>
-            <map to='#f28e2b'>
-              <bucket>24</bucket>
-            </map>
             <map to='#f28e2b'>
               <bucket>44</bucket>
-            </map>
-            <map to='#fabfd2'>
-              <bucket>17</bucket>
-            </map>
-            <map to='#fabfd2'>
-              <bucket>37</bucket>
-            </map>
-            <map to='#ff9d9a'>
-              <bucket>13</bucket>
-            </map>
-            <map to='#ff9d9a'>
-              <bucket>33</bucket>
-            </map>
-            <map to='#ff9d9a'>
-              <bucket>55</bucket>
-            </map>
-            <map to='#ffbe7d'>
-              <bucket>5</bucket>
-            </map>
-            <map to='#ffbe7d'>
-              <bucket>25</bucket>
-            </map>
-            <map to='#ffbe7d'>
-              <bucket>45</bucket>
             </map>
           </encoding>
           <encoding attr='color' field='[:Measure Names]' palette='blue_10_0' type='palette'>
@@ -979,70 +982,16 @@
     </action>
   </actions>
   <worksheets>
-    <worksheet name='Antiguedad de los cliente en Vanguard (años)'>
-      <table>
-        <view>
-          <datasources>
-            <datasource caption='vanguard_tableau_ready' name='federated.0to2n4l1yoeiyb1dyuneb1odjoak' />
-          </datasources>
-          <datasource-dependencies datasource='federated.0to2n4l1yoeiyb1dyuneb1odjoak'>
-            <column caption='Client Id' datatype='integer' name='[client_id]' role='dimension' type='ordinal' />
-            <column caption='Clnt Tenure Yr' datatype='integer' datatype-customized='true' name='[clnt_tenure_yr]' role='dimension' type='ordinal' />
-            <column-instance column='[client_id]' derivation='None' name='[none:client_id:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[clnt_tenure_yr]' derivation='None' name='[none:clnt_tenure_yr:ok]' pivot='key' type='ordinal' />
-          </datasource-dependencies>
-          <filter class='categorical' column='[federated.0to2n4l1yoeiyb1dyuneb1odjoak].[Exclusiones (Client Id,Clnt Tenure Yr)]'>
-            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
-              <groupfilter function='crossjoin'>
-                <groupfilter function='level-members' level='[none:client_id:qk]' />
-                <groupfilter function='level-members' level='[none:clnt_tenure_yr:ok]' />
-              </groupfilter>
-              <groupfilter function='reorder-dimensionality'>
-                <groupfilter function='crossjoin'>
-                  <groupfilter function='member' level='[none:clnt_tenure_yr:ok]' member='%null%' />
-                  <groupfilter function='union'>
-                    <groupfilter function='member' level='[none:client_id:qk]' member='748964' />
-                    <groupfilter function='member' level='[none:client_id:qk]' member='2805183' />
-                  </groupfilter>
-                </groupfilter>
-                <order>
-                  <hierarchy name='[none:client_id:qk]' />
-                  <hierarchy name='[none:clnt_tenure_yr:ok]' />
-                </order>
-              </groupfilter>
-            </groupfilter>
-          </filter>
-          <filter class='categorical' column='[federated.0to2n4l1yoeiyb1dyuneb1odjoak].[none:clnt_tenure_yr:ok]'>
-            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
-              <groupfilter function='level-members' level='[none:clnt_tenure_yr:ok]' />
-              <groupfilter function='member' level='[none:clnt_tenure_yr:ok]' member='%null%' />
-            </groupfilter>
-          </filter>
-          <slices>
-            <column>[federated.0to2n4l1yoeiyb1dyuneb1odjoak].[Exclusiones (Client Id,Clnt Tenure Yr)]</column>
-            <column>[federated.0to2n4l1yoeiyb1dyuneb1odjoak].[none:clnt_tenure_yr:ok]</column>
-          </slices>
-          <aggregation value='true' />
-        </view>
-        <style>
-          <style-rule element='header'>
-            <format attr='height-header' value='21' />
-          </style-rule>
-        </style>
-        <panes>
-          <pane selection-relaxation-option='selection-relaxation-allow'>
-            <view>
-              <breakdown value='auto' />
-            </view>
-            <mark class='Bar' />
-          </pane>
-        </panes>
-        <rows>[federated.0to2n4l1yoeiyb1dyuneb1odjoak].[none:client_id:qk]</rows>
-        <cols>[federated.0to2n4l1yoeiyb1dyuneb1odjoak].[none:clnt_tenure_yr:ok]</cols>
-      </table>
-      <simple-id uuid='{D9FA30A2-1880-45D4-ACAE-34E422CBE3C7}' />
-    </worksheet>
     <worksheet name='Antiguedad de los clientes por edad'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#ffffff'>&lt;</run>
+            <run fontcolor='#ffffff'>Sheet Name</run>
+            <run fontcolor='#ffffff'>&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
       <table>
         <view>
           <datasources>
@@ -1146,6 +1095,15 @@
       <simple-id uuid='{DCAE3C72-B2AF-4EFB-BEC8-BEEEA23E5115}' />
     </worksheet>
     <worksheet name='Average Time Between Steps Test vs Control'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#ffffff'>&lt;</run>
+            <run fontcolor='#ffffff'>Sheet Name</run>
+            <run fontcolor='#ffffff'>&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
       <table>
         <view>
           <datasources>
@@ -1189,7 +1147,11 @@
           </slices>
           <aggregation value='true' />
         </view>
-        <style />
+        <style>
+          <style-rule element='header'>
+            <format attr='height' field='[federated.0to2n4l1yoeiyb1dyuneb1odjoak].[none:process_step:nk]' value='21' />
+          </style-rule>
+        </style>
         <panes>
           <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
             <view>
@@ -1210,7 +1172,7 @@
       <layout-options>
         <title>
           <formatted-text>
-            <run fontcolor='#000000' fontname='Benton Sans Book'>Tasa de finalización por grupo</run>
+            <run fontcolor='#ffffff' fontname='Benton Sans Book'>Tasa de finalización por grupo</run>
           </formatted-text>
         </title>
       </layout-options>
@@ -1274,6 +1236,15 @@
       <simple-id uuid='{52A71C8D-F437-4DF6-8E73-E57BAFFE35EB}' />
     </worksheet>
     <worksheet name='Coste-Efectividad'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#ffffff'>&lt;</run>
+            <run fontcolor='#ffffff'>Sheet Name</run>
+            <run fontcolor='#ffffff'>&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
       <table>
         <view>
           <datasources>
@@ -1337,7 +1308,7 @@
       <layout-options>
         <title>
           <formatted-text>
-            <run fontsize='12'>Error Rate</run>
+            <run fontcolor='#ffffff' fontsize='12'>Error Rate</run>
           </formatted-text>
         </title>
       </layout-options>
@@ -1445,6 +1416,15 @@
       <simple-id uuid='{41F9E02C-024F-4BA3-9055-7E3BA7CCE76D}' />
     </worksheet>
     <worksheet name='Error Test vs Control'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#ffffff'>&lt;</run>
+            <run fontcolor='#ffffff'>Sheet Name</run>
+            <run fontcolor='#ffffff'>&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
       <table>
         <view>
           <datasources>
@@ -1467,7 +1447,11 @@
           </slices>
           <aggregation value='true' />
         </view>
-        <style />
+        <style>
+          <style-rule element='header'>
+            <format attr='height-header' value='25' />
+          </style-rule>
+        </style>
         <panes>
           <pane selection-relaxation-option='selection-relaxation-allow'>
             <view>
@@ -1485,7 +1469,8 @@
       <layout-options>
         <title>
           <formatted-text>
-            <run>Embudo del proceso digital&#10;</run>
+            <run fontcolor='#ffffff'>Embudo del proceso digital</run>
+            <run>Æ&#10;</run>
           </formatted-text>
         </title>
       </layout-options>
@@ -1529,7 +1514,7 @@
       <layout-options>
         <title>
           <formatted-text>
-            <run fontsize='12'>KPI Completion Rate</run>
+            <run fontcolor='#ffffff' fontsize='12'>KPI Completion Rate</run>
           </formatted-text>
         </title>
       </layout-options>
@@ -1591,7 +1576,82 @@
       </table>
       <simple-id uuid='{E5F8427D-3298-4016-8C9E-977A1DD81760}' />
     </worksheet>
+    <worksheet name='SEGMENTACION POR EDAD'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#ffffff'>&lt;</run>
+            <run fontcolor='#ffffff'>Sheet Name</run>
+            <run fontcolor='#ffffff'>&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='vanguard_tableau_ready' name='federated.0to2n4l1yoeiyb1dyuneb1odjoak' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0to2n4l1yoeiyb1dyuneb1odjoak'>
+            <column caption='Completion Rate FINAL' datatype='real' datatype-customized='true' name='[Calculation_1947857531072513]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNTD(&#10;IF [process_step] = &quot;confirm&quot;&#10;THEN [client_id]&#10;END&#10;)&#10;/&#10;COUNTD([client_id])' />
+            </column>
+            <column aggregation='None' caption='Clnt Age (agrupación)' datatype='integer' name='[Clnt Age (agrupación)]' role='dimension' type='ordinal'>
+              <calculation class='bin' decimals='0' formula='[clnt_age]' peg='0' size='5' />
+            </column>
+            <column datatype='string' name='[Variation]' role='dimension' type='nominal' />
+            <column caption='Client Id' datatype='integer' name='[client_id]' role='dimension' type='ordinal' />
+            <column caption='Clnt Age' datatype='integer' datatype-customized='true' name='[clnt_age]' role='dimension' type='ordinal' />
+            <column-instance column='[Clnt Age (agrupación)]' derivation='None' name='[none:Clnt Age (agrupación):ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Variation]' derivation='None' name='[none:Variation:nk]' pivot='key' type='nominal' />
+            <column caption='Process Step' datatype='string' name='[process_step]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_1947857531072513]' derivation='User' name='[usr:Calculation_1947857531072513:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0to2n4l1yoeiyb1dyuneb1odjoak].[none:Clnt Age (agrupación):ok]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Clnt Age (agrupación):ok]' />
+              <groupfilter function='member' level='[none:Clnt Age (agrupación):ok]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0to2n4l1yoeiyb1dyuneb1odjoak].[none:Clnt Age (agrupación):ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.0to2n4l1yoeiyb1dyuneb1odjoak].[none:Variation:nk]' value='Variation'>
+              <formatted-text>
+                <run fontcolor='#ffffff'>Variation</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0to2n4l1yoeiyb1dyuneb1odjoak].[none:Variation:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0to2n4l1yoeiyb1dyuneb1odjoak].[usr:Calculation_1947857531072513:qk]</rows>
+        <cols>([federated.0to2n4l1yoeiyb1dyuneb1odjoak].[none:Clnt Age (agrupación):ok] / [federated.0to2n4l1yoeiyb1dyuneb1odjoak].[none:Variation:nk])</cols>
+      </table>
+      <simple-id uuid='{89E1C6CF-9D26-4087-BCE0-6D91EFDB8E0D}' />
+    </worksheet>
     <worksheet name='Tasa de abandono por antiguedad Test vs Control'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#ffffff'>&lt;</run>
+            <run fontcolor='#ffffff'>Sheet Name</run>
+            <run fontcolor='#ffffff'>&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
       <table>
         <view>
           <datasources>
@@ -1629,6 +1689,15 @@
       <simple-id uuid='{589AC64A-B57D-4A56-96E9-C46B6AEC6EDB}' />
     </worksheet>
     <worksheet name='Tasa de complemento vs tasa de abandono'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#ffffff'>&lt;</run>
+            <run fontcolor='#ffffff'>Sheet Name</run>
+            <run fontcolor='#ffffff'>&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
       <table>
         <view>
           <datasources>
@@ -1723,7 +1792,7 @@
             <zone h='5333' id='3' type-v2='title' w='99000' x='500' y='889' />
             <zone h='11222' id='4' is-fixed='true' paired-zone-id='5' removable='false' type-v2='flipboard-nav' w='99000' x='500' y='6222' />
             <zone h='81667' id='5' paired-zone-id='4' removable='false' type-v2='flipboard' w='99000' x='500' y='17444'>
-              <flipboard active-id='3' nav-type='caption' show-nav-arrows='true'>
+              <flipboard active-id='6' nav-type='caption' show-nav-arrows='true'>
                 <story-points>
                   <story-point caption='A/B Testing KPI' captured-sheet='KPI' id='1'>
                     <capturedDeltas>
@@ -1766,8 +1835,11 @@
                       </worksheet>
                     </capturedDeltas>
                   </story-point>
-                  <story-point caption='Análisis clientes' captured-sheet='Dashboard 3' id='3' />
-                  <story-point caption='Eficiencia vs coste' captured-sheet='' id='4' />
+                  <story-point caption='Coste-efectividad ' captured-sheet='Dashboard 3' id='3' />
+                  <story-point caption='Introducción' captured-sheet='Introducción a Vanguard y el Reto Digital' id='4' />
+                  <story-point caption='Visión Genrral de los Datos' captured-sheet='Visión General de los Datos' id='5' />
+                  <story-point caption='Limpieza y Unión de Datos' captured-sheet='Limpieza y Unión de Datos' id='6' />
+                  <story-point captured-sheet='Análisis Exploratorio: Perfil Demográfico' id='7' />
                 </story-points>
               </flipboard>
             </zone>
@@ -1789,7 +1861,7 @@
             <run fontalignment='0' fontsize='12'>Vanguard probó un nuevo proceso digital con 50.500 clientes entre marzo y junio 2017. Analizamos 3 KPIs clave para determinar si el nuevo diseño mejora la experiencia.</run>
           </formatted-text>
         </zone>
-        <zone flipboard-zone-id='5' forceUpdate='true' h='26000' id='9' story-point-id='3' type-v2='text' w='17063' x='41688' y='20444'>
+        <zone flipboard-zone-id='5' forceUpdate='true' h='26000' hidden='true' id='9' story-point-id='3' type-v2='text' w='17063' x='25125' y='20222'>
           <formatted-text>
             <run fontalignment='0' fontcolor='#000000' fontsize='12'>La mejora actual (3.7%) está por debajo del umbral del 5% que definimos. </run>
             <run fontalignment='0'>Æ&#10;&#10;&#10;</run>
@@ -1799,35 +1871,18 @@
       </zones>
       <simple-id uuid='{2E72C2CC-BDE3-4737-8055-B66A44F84DCA}' />
     </dashboard>
-    <dashboard enable-sort-zone-taborder='true' name='Abandono '>
+    <dashboard enable-sort-zone-taborder='true' name='Análisis Estadístico: Prueba de Hipótesis'>
       <style />
-      <size maxheight='860' maxwidth='650' minheight='560' minwidth='420' />
-      <zones />
-      <devicelayouts>
-        <devicelayout auto-generated='true' name='Phone'>
-          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
-          <zones>
-            <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='1' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000' />
-              <zone-style>
-                <format attr='border-color' value='#000000' />
-                <format attr='border-style' value='none' />
-                <format attr='border-width' value='0' />
-                <format attr='margin' value='8' />
-              </zone-style>
-            </zone>
-          </zones>
-        </devicelayout>
-      </devicelayouts>
-      <simple-id uuid='{46EBC85F-FD16-4174-B64C-25E16F976D83}' />
-    </dashboard>
-    <dashboard enable-sort-zone-taborder='true' name='Análisis clientes'>
-      <style />
-      <size maxheight='860' maxwidth='650' minheight='560' minwidth='420' />
+      <size maxheight='860' maxwidth='1250' minheight='560' minwidth='620' sizing-mode='range' />
       <zones>
         <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
-          <zone h='97406' id='5' param='vert' type-v2='layout-flow' w='97538' x='1231' y='1297'>
-            <zone h='97406' id='6' type-v2='layout-basic' w='97538' x='1231' y='1297' />
+          <zone h='97402' id='3' is-scaled='1' param='Image/10.png' type-v2='bitmap' w='98508' x='746' y='1299'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
           </zone>
           <zone-style>
             <format attr='border-color' value='#000000' />
@@ -1836,8 +1891,6 @@
             <format attr='margin' value='8' />
           </zone-style>
         </zone>
-        <zone h='60292' id='8' name='Antiguedad de los cliente en Vanguard (años)' w='94923' x='1077' y='12156' />
-        <zone h='40681' id='9' name='Antiguedad de los clientes por edad' w='94923' x='1692' y='76985' />
       </zones>
       <devicelayouts>
         <devicelayout auto-generated='true' name='Phone'>
@@ -1855,11 +1908,169 @@
           </zones>
         </devicelayout>
       </devicelayouts>
-      <simple-id uuid='{07BB0E6A-EE7E-40A4-AD8A-7CBC46BDBE44}' />
+      <simple-id uuid='{4984CCDD-A62A-434E-8535-6557903054D5}' />
+    </dashboard>
+    <dashboard enable-sort-zone-taborder='true' name='Análisis Exploratorio - Comportamiento Digital'>
+      <style />
+      <size maxheight='860' maxwidth='1120' minheight='560' minwidth='1020' sizing-mode='range' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='97402' id='3' is-scaled='1' param='Image/9.png' type-v2='bitmap' w='98508' x='746' y='1299'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='47078' id='5' name='Funnel Analysis' w='48555' x='27213' y='35227' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='1' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{73D069B8-783D-4263-A003-DD2194379B6A}' />
+    </dashboard>
+    <dashboard enable-sort-zone-taborder='true' name='Análisis Exploratorio: Perfil Demográfico'>
+      <style />
+      <size maxheight='660' maxwidth='1050' minheight='360' minwidth='600' sizing-mode='range' />
+      <zones>
+        <zone h='100000' id='8' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='97406' id='7' is-scaled='1' param='Image/5.png' type-v2='bitmap' w='98476' x='762' y='1297'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='33225' id='6' name='Antiguedad de los clientes por edad' w='35810' x='55810' y='19287' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='1' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{40A0AC69-52DD-4703-81A8-738B5D175F88}' />
+    </dashboard>
+    <dashboard enable-sort-zone-taborder='true' name='Cierre'>
+      <style />
+      <size maxheight='860' maxwidth='1250' minheight='560' minwidth='420' sizing-mode='range' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='97402' id='5' is-scaled='1' param='Image/20.png' type-v2='bitmap' w='98504' x='748' y='1299'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='1' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{0BA2B1B7-D012-4B9E-8565-C901607B64CC}' />
+    </dashboard>
+    <dashboard enable-sort-zone-taborder='true' name='Conclusión y Recomendaciones'>
+      <style />
+      <size maxheight='860' maxwidth='1150' minheight='560' minwidth='420' sizing-mode='range' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='97402' id='3' is-scaled='1' param='Image/19.png' type-v2='bitmap' w='98508' x='746' y='1299'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='1' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{7458FCAC-5F29-4101-8AAB-2788D61EFCA3}' />
     </dashboard>
     <dashboard enable-sort-zone-taborder='true' name='Dashboard 3'>
       <style />
-      <size maxheight='860' maxwidth='650' minheight='560' minwidth='420' />
+      <size maxheight='860' maxwidth='1120' minheight='560' minwidth='720' sizing-mode='range' />
       <datasources>
         <datasource caption='Parámetros' name='Parameters' />
       </datasources>
@@ -1870,16 +2081,17 @@
       </datasource-dependencies>
       <zones>
         <zone h='100000' id='5' type-v2='layout-basic' w='100000' x='0' y='0'>
-          <zone h='97406' id='8' param='vert' type-v2='layout-flow' w='97538' x='1231' y='1297'>
-            <zone h='6808' id='9' type-v2='title' w='97538' x='1231' y='1297'>
-              <zone-style>
-                <format attr='border-color' value='#000000' />
-                <format attr='border-style' value='none' />
-                <format attr='border-width' value='0' />
-                <format attr='margin' value='4' />
-              </zone-style>
+          <zone h='97402' id='8' param='vert' type-v2='layout-flow' w='98508' x='746' y='1299'>
+            <zone h='97402' id='6' type-v2='layout-basic' w='98508' x='746' y='1299'>
+              <zone h='97402' id='9' is-centered='0' is-scaled='1' param='Image/11.png' type-v2='bitmap' w='98508' x='746' y='1299'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
             </zone>
-            <zone h='90598' id='6' type-v2='layout-basic' w='97538' x='1231' y='8105' />
           </zone>
           <zone-style>
             <format attr='border-color' value='#000000' />
@@ -1888,8 +2100,12 @@
             <format attr='margin' value='8' />
           </zone-style>
         </zone>
-        <zone h='94652' id='3' name='Coste-Efectividad' w='91846' x='1538' y='2269' />
-        <zone h='7131' id='4' mode='type_in' param='[Parameters].[Parámetro 1]' type-v2='paramctrl' w='24615' x='67846' y='20746' />
+        <zone h='28409' id='3' name='Coste-Efectividad' w='59087' x='22740' y='33604' />
+        <zone custom-title='true' h='7143' id='4' mode='type_in' param='[Parameters].[Parámetro 1]' type-v2='paramctrl' w='24604' x='63840' y='29708'>
+          <formatted-text>
+            <run fontcolor='#ffffff'>Umbral de rentabilidad</run>
+          </formatted-text>
+        </zone>
       </zones>
       <devicelayouts>
         <devicelayout auto-generated='true' name='Phone'>
@@ -1909,6 +2125,218 @@
       </devicelayouts>
       <simple-id uuid='{8AC83790-B987-4B30-9C38-1223818DE473}' />
     </dashboard>
+    <dashboard enable-sort-zone-taborder='true' name='Definición de KPIs para el Experimento'>
+      <style />
+      <size maxheight='860' maxwidth='1120' minheight='560' minwidth='1020' sizing-mode='range' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='97402' id='3' is-scaled='1' param='Image/7.png' type-v2='bitmap' w='98508' x='746' y='1299'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='1' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{AA2EC82D-EF65-48D6-B63F-FCF5D1AA8D5F}' />
+    </dashboard>
+    <dashboard enable-sort-zone-taborder='true' name='Desafíos Enfrentados y Aprendizajes'>
+      <style />
+      <size maxheight='860' maxwidth='1220' minheight='560' minwidth='1020' sizing-mode='range' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='97402' id='3' is-centered='0' is-scaled='1' param='Image/17.png' type-v2='bitmap' w='98508' x='746' y='1299'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='1' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{D14E62CB-6EB1-4809-B555-833DD157949B}' />
+    </dashboard>
+    <dashboard enable-sort-zone-taborder='true' name='Evaluación del Diseño Experimental'>
+      <style />
+      <size maxheight='860' maxwidth='1150' minheight='560' minwidth='420' sizing-mode='range' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='97402' id='3' is-scaled='1' param='Image/13.png' type-v2='bitmap' w='98508' x='746' y='1299'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='1' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{A3C3A2C9-A93D-46E8-A2EC-DCD667888B6E}' />
+    </dashboard>
+    <dashboard enable-sort-zone-taborder='true' name='Gestión del Equipo y Metodología'>
+      <style />
+      <size maxheight='860' maxwidth='1050' minheight='560' minwidth='420' sizing-mode='range' />
+      <zones>
+        <zone h='104376' id='3' is-scaled='1' param='Image/16.png' type-v2='bitmap' w='103692' x='-3538' y='-2593' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='1' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{5286A997-38C5-4274-B700-46FD9BBA39B2}' />
+    </dashboard>
+    <dashboard enable-sort-zone-taborder='true' name='Insights'>
+      <style />
+      <size maxheight='860' maxwidth='1120' minheight='560' minwidth='820' sizing-mode='range' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='97402' id='3' is-scaled='1' param='Image/18.png' type-v2='bitmap' w='98508' x='746' y='1299'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='1' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{19189631-DDD8-4FE5-A690-D32E27FDB8FC}' />
+    </dashboard>
+    <dashboard enable-sort-zone-taborder='true' name='Introducción a Vanguard y el Reto Digital'>
+      <style />
+      <size maxheight='1460' maxwidth='1100' minheight='200' minwidth='500' sizing-mode='range' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone forceUpdate='true' h='99838' id='5' is-scaled='1' param='Image/2.png' type-v2='bitmap' w='100875' x='-1000' y='-324' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='1' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{0D5F723A-5002-4927-8BEA-1AC287F32DE6}' />
+    </dashboard>
     <dashboard enable-sort-zone-taborder='true' name='KPI'>
       <layout-options>
         <title>
@@ -1918,13 +2346,16 @@
         </title>
       </layout-options>
       <style />
-      <size maxheight='900' maxwidth='1600' minheight='900' minwidth='1600' preset-index='8' sizing-mode='fixed' />
+      <size maxheight='600' maxwidth='1000' minheight='600' minwidth='1000' preset-index='8' sizing-mode='fixed' />
       <zones>
-        <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
-          <zone h='98222' id='20' param='vert' type-v2='layout-flow' w='99000' x='500' y='889'>
-            <zone h='98222' id='6' param='horz' type-v2='layout-flow' w='99000' x='500' y='889'>
-              <zone h='98222' id='4' type-v2='layout-basic' w='99000' x='500' y='889' />
-            </zone>
+        <zone h='100000' id='31' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='97334' id='30' param='Image/8.png' type-v2='bitmap' w='98400' x='800' y='1333'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
           </zone>
           <zone-style>
             <format attr='border-color' value='#000000' />
@@ -1933,12 +2364,46 @@
             <format attr='margin' value='8' />
           </zone-style>
         </zone>
-        <zone h='14222' id='1' name='KPI Test Completion Rate' w='11438' x='22500' y='7667' />
-        <zone h='13000' id='8' name='Error Rate' w='9875' x='66188' y='7444' />
-        <zone h='28000' id='10' name='Average Time Between Steps Test vs Control' w='97125' x='1688' y='69222' />
-        <zone h='39193' id='9' name='Error Test vs Control' w='32357' x='66179' y='30078' />
-        <zone h='40625' id='3' name='Completion Test vs Control' w='25403' x='2196' y='28646' />
-        <zone h='12370' id='14' name='Average Time Between Steps' w='11493' x='42460' y='8984' />
+        <zone h='14167' hidden-by-user='true' id='1' name='KPI Test Completion Rate' w='11400' x='32800' y='25000' />
+        <zone h='13000' hidden-by-user='true' id='8' name='Error Rate' w='9900' x='66400' y='29000' />
+        <zone h='73167' id='10' name='Average Time Between Steps Test vs Control' w='88000' x='5600' y='21000' />
+        <zone h='50667' hidden-by-user='true' id='9' name='Error Test vs Control' w='19000' x='77300' y='21833' />
+        <zone h='56167' hidden-by-user='true' id='3' name='Completion Test vs Control' w='25400' x='4800' y='20167' />
+        <zone h='4000' id='25' type-v2='dashboard-object' w='1500' x='86400' y='77000'>
+          <button action=''>
+            <toggle-action>tabdoc:toggle-button-click-action window-id=&quot;{AB64D2A2-A0B9-47B3-9A4C-AD0593C982B7}&quot; zone-id=&quot;25&quot; zone-ids=[10]</toggle-action>
+            <button-visual-state />
+            <button-visual-state />
+          </button>
+        </zone>
+        <zone h='4000' id='26' type-v2='dashboard-object' w='1500' x='89800' y='16500'>
+          <button action='' active-visual-state-index='1'>
+            <toggle-action>tabdoc:toggle-button-click-action window-id=&quot;{AB64D2A2-A0B9-47B3-9A4C-AD0593C982B7}&quot; zone-id=&quot;26&quot; zone-ids=[9]</toggle-action>
+            <button-visual-state />
+            <button-visual-state />
+          </button>
+        </zone>
+        <zone h='4000' id='27' type-v2='dashboard-object' w='1500' x='26813' y='20167'>
+          <button action='' active-visual-state-index='1'>
+            <toggle-action>tabdoc:toggle-button-click-action window-id=&quot;{AB64D2A2-A0B9-47B3-9A4C-AD0593C982B7}&quot; zone-id=&quot;27&quot; zone-ids=[3]</toggle-action>
+            <button-visual-state />
+            <button-visual-state />
+          </button>
+        </zone>
+        <zone h='4000' id='28' type-v2='dashboard-object' w='1500' x='76500' y='17167'>
+          <button action='' active-visual-state-index='1'>
+            <toggle-action>tabdoc:toggle-button-click-action window-id=&quot;{AB64D2A2-A0B9-47B3-9A4C-AD0593C982B7}&quot; zone-id=&quot;28&quot; zone-ids=[8]</toggle-action>
+            <button-visual-state />
+            <button-visual-state />
+          </button>
+        </zone>
+        <zone h='4000' id='29' type-v2='dashboard-object' w='1500' x='39500' y='24833'>
+          <button action='' active-visual-state-index='1'>
+            <toggle-action>tabdoc:toggle-button-click-action window-id=&quot;{AB64D2A2-A0B9-47B3-9A4C-AD0593C982B7}&quot; zone-id=&quot;29&quot; zone-ids=[1]</toggle-action>
+            <button-visual-state />
+            <button-visual-state />
+          </button>
+        </zone>
       </zones>
       <devicelayouts>
         <devicelayout auto-generated='true' name='Phone'>
@@ -1963,15 +2428,6 @@
                   </zone-style>
                 </zone>
                 <zone fixed-size='128' h='14222' id='1' is-fixed='true' name='KPI Test Completion Rate' w='11438' x='22500' y='7667'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone fixed-size='111' h='12370' id='14' is-fixed='true' name='Average Time Between Steps' w='11493' x='42460' y='8984'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -2019,6 +2475,203 @@
         </devicelayout>
       </devicelayouts>
       <simple-id uuid='{311C91F2-3251-48F8-B088-C6FE33EC7DA6}' />
+    </dashboard>
+    <dashboard enable-sort-zone-taborder='true' name='Limpieza y Unión de Datos'>
+      <style />
+      <size maxheight='560' maxwidth='1420' minheight='400' minwidth='1020' sizing-mode='range' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone forceUpdate='true' h='97142' id='5' is-scaled='1' param='Image/4.png' type-v2='bitmap' w='98460' x='770' y='1429'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='1' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{3F06B4AD-0C4B-4DAC-951D-8685387BF82B}' />
+    </dashboard>
+    <dashboard enable-sort-zone-taborder='true' name='Pruebas Adicionales y Resultadosbas Adicionales '>
+      <style />
+      <size maxheight='860' maxwidth='1120' minheight='560' minwidth='1020' sizing-mode='range' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone forceUpdate='true' h='97402' id='3' is-scaled='1' param='Image/12.png' type-v2='bitmap' w='98508' x='746' y='1299'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='47240' id='5' name='Tasa de complemento vs tasa de abandono' w='33271' x='61976' y='33117' />
+        <zone h='48052' id='6' name='Tasa de abandono por antiguedad Test vs Control' w='33271' x='61789' y='31006' />
+        <zone h='3896' id='7' type-v2='dashboard-object' w='2237' x='93849' y='27760'>
+          <button action=''>
+            <toggle-action>tabdoc:toggle-button-click-action window-id=&quot;{CD1AAD02-5BBC-4A3C-90AC-834FD6D2E5E2}&quot; zone-id=&quot;7&quot; zone-ids=[6]</toggle-action>
+            <button-visual-state />
+            <button-visual-state />
+          </button>
+        </zone>
+        <zone h='3896' id='8' type-v2='dashboard-object' w='2237' x='95247' y='33117'>
+          <button action=''>
+            <toggle-action>tabdoc:toggle-button-click-action window-id=&quot;{CD1AAD02-5BBC-4A3C-90AC-834FD6D2E5E2}&quot; zone-id=&quot;8&quot; zone-ids=[5]</toggle-action>
+            <button-visual-state />
+            <button-visual-state />
+          </button>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='1' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{92DF4465-FFC2-4750-B6F6-8FF1F5E635A5}' />
+    </dashboard>
+    <dashboard enable-sort-zone-taborder='true' name='Segmentación de Clientes por edad'>
+      <style />
+      <size maxheight='860' maxwidth='1320' minheight='560' minwidth='1020' sizing-mode='range' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='97402' id='3' is-scaled='1' param='Image/6.png' type-v2='bitmap' w='98508' x='746' y='1299'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='51786' id='5' name='SEGMENTACION POR EDAD' w='47437' x='27493' y='31818' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='1' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{A43C1327-B5F0-44CB-BA0F-EB79E6BB3751}' />
+    </dashboard>
+    <dashboard enable-sort-zone-taborder='true' name='Sugerencias para Datos Adicionales'>
+      <style />
+      <size maxheight='860' maxwidth='1150' minheight='560' minwidth='420' sizing-mode='range' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='97402' id='3' is-scaled='1' param='Image/15.png' type-v2='bitmap' w='98508' x='746' y='1299'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='1' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{8AF6E5D1-6C0F-4C0D-8892-CB90122A403E}' />
+    </dashboard>
+    <dashboard enable-sort-zone-taborder='true' name='Visión General de los Datos'>
+      <style />
+      <size maxheight='860' maxwidth='1750' minheight='560' minwidth='820' sizing-mode='range' />
+      <zones>
+        <zone h='96429' id='3' is-scaled='1' param='Image/3.png' type-v2='bitmap' w='106431' x='-6431' y='-325' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='1' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{D4E111F3-4A10-4613-BF8A-98B4CEEFAD2E}' />
     </dashboard>
   </dashboards>
   <windows source-height='30'>
@@ -2237,29 +2890,6 @@
       </cards>
       <simple-id uuid='{9452B20C-ACBC-4BC2-913A-6DFEDE3DF80E}' />
     </window>
-    <window class='worksheet' name='Antiguedad de los cliente en Vanguard (años)'>
-      <cards>
-        <edge name='left'>
-          <strip size='160'>
-            <card type='pages' />
-            <card type='filters' />
-            <card type='marks' />
-          </strip>
-        </edge>
-        <edge name='top'>
-          <strip size='2147483647'>
-            <card type='columns' />
-          </strip>
-          <strip size='2147483647'>
-            <card type='rows' />
-          </strip>
-          <strip size='31'>
-            <card type='title' />
-          </strip>
-        </edge>
-      </cards>
-      <simple-id uuid='{FD76E8C9-26F9-469D-BDFD-0837361EA56D}' />
-    </window>
     <window class='worksheet' name='Antiguedad de los clientes por edad'>
       <cards>
         <edge name='left'>
@@ -2344,11 +2974,75 @@
       </cards>
       <simple-id uuid='{47129FB9-AEE4-46F5-8506-46E82E3FA87E}' />
     </window>
+    <window class='worksheet' name='SEGMENTACION POR EDAD'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='175'>
+            <card pane-specification-id='0' param='[federated.0to2n4l1yoeiyb1dyuneb1odjoak].[none:Variation:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{0F18A531-9485-4F84-86F4-E8A532B82C69}' />
+    </window>
+    <window class='dashboard' name='Introducción a Vanguard y el Reto Digital'>
+      <viewpoints />
+      <active id='5' />
+      <simple-id uuid='{09731978-3B34-46B6-BF2E-0B523B7A03D8}' />
+    </window>
+    <window class='dashboard' name='Visión General de los Datos'>
+      <viewpoints />
+      <active id='3' />
+      <simple-id uuid='{E0582CD2-9696-4E4D-B97F-9C0672EFE903}' />
+    </window>
+    <window class='dashboard' name='Limpieza y Unión de Datos'>
+      <viewpoints />
+      <active id='5' />
+      <device-preview visible='true' />
+      <simple-id uuid='{1ED791AA-94F6-4836-B884-5DA79FDC6CC3}' />
+    </window>
+    <window class='dashboard' name='Análisis Exploratorio: Perfil Demográfico'>
+      <viewpoints>
+        <viewpoint name='Antiguedad de los clientes por edad'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='7' />
+      <simple-id uuid='{529BA8D4-D21D-4841-89C8-209949F3EE0F}' />
+    </window>
+    <window class='dashboard' name='Segmentación de Clientes por edad'>
+      <viewpoints>
+        <viewpoint name='SEGMENTACION POR EDAD'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='3' />
+      <simple-id uuid='{139C2F8B-9F2D-4B68-B8A8-16EE5CF407BA}' />
+    </window>
+    <window class='dashboard' name='Definición de KPIs para el Experimento'>
+      <viewpoints />
+      <active id='3' />
+      <simple-id uuid='{E5ED490F-15C5-4BB5-A9FB-9A717E6C83C2}' />
+    </window>
     <window class='dashboard' name='KPI'>
       <viewpoints>
-        <viewpoint name='Average Time Between Steps'>
-          <zoom type='fit-width' />
-        </viewpoint>
         <viewpoint name='Average Time Between Steps Test vs Control'>
           <zoom type='entire-view' />
         </viewpoint>
@@ -2367,36 +3061,80 @@
           <floating-toolbar-visibility value='1' />
         </viewpoint>
       </viewpoints>
-      <active id='4' />
+      <active id='30' />
       <simple-id uuid='{AB64D2A2-A0B9-47B3-9A4C-AD0593C982B7}' />
     </window>
-    <window class='dashboard' name='Análisis clientes'>
+    <window class='dashboard' name='Análisis Exploratorio - Comportamiento Digital'>
       <viewpoints>
-        <viewpoint name='Antiguedad de los cliente en Vanguard (años)'>
-          <zoom type='entire-view' />
-        </viewpoint>
-        <viewpoint name='Antiguedad de los clientes por edad'>
+        <viewpoint name='Funnel Analysis'>
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='-1' />
-      <simple-id uuid='{D0145ED2-606E-4917-AC6B-BD2E1E5A8A56}' />
+      <active id='5' />
+      <simple-id uuid='{49272B94-22A3-4022-9FBF-42890A00EB60}' />
     </window>
-    <window class='dashboard' maximized='true' name='Dashboard 3'>
+    <window class='dashboard' name='Análisis Estadístico: Prueba de Hipótesis'>
+      <viewpoints />
+      <active id='3' />
+      <simple-id uuid='{C804A9D7-A689-484E-99B7-D1B4CFBFF626}' />
+    </window>
+    <window class='dashboard' name='Dashboard 3'>
       <viewpoints>
         <viewpoint name='Coste-Efectividad' />
       </viewpoints>
-      <active id='3' />
+      <active id='9' />
       <simple-id uuid='{EAB8BC61-0873-4171-8A16-8A6351E46361}' />
     </window>
-    <window class='dashboard' name='Abandono '>
-      <viewpoints />
-      <active id='-1' />
-      <simple-id uuid='{604FD0D7-2F95-4288-AE6F-BBEC0CC39276}' />
+    <window class='dashboard' name='Pruebas Adicionales y Resultadosbas Adicionales '>
+      <viewpoints>
+        <viewpoint name='Tasa de abandono por antiguedad Test vs Control'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Tasa de complemento vs tasa de abandono'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='7' />
+      <simple-id uuid='{CD1AAD02-5BBC-4A3C-90AC-834FD6D2E5E2}' />
     </window>
-    <window class='dashboard' name='A/B Testing'>
+    <window class='dashboard' name='Evaluación del Diseño Experimental'>
+      <viewpoints />
+      <active id='3' />
+      <simple-id uuid='{8F3F2959-EB19-4542-AF70-FA17267036D9}' />
+    </window>
+    <window class='dashboard' name='Sugerencias para Datos Adicionales'>
+      <viewpoints />
+      <active id='3' />
+      <simple-id uuid='{794E18B4-2DFE-4B3E-BF9B-4A68F6FCF201}' />
+    </window>
+    <window class='dashboard' name='Gestión del Equipo y Metodología'>
+      <viewpoints />
+      <active id='3' />
+      <simple-id uuid='{B0D33B06-AA41-434B-84E2-46077AA2B6BB}' />
+    </window>
+    <window class='dashboard' name='Desafíos Enfrentados y Aprendizajes'>
+      <viewpoints />
+      <active id='3' />
+      <simple-id uuid='{78EB4FA0-E578-439F-90B8-230F75A5885D}' />
+    </window>
+    <window class='dashboard' name='Insights'>
+      <viewpoints />
+      <active id='3' />
+      <simple-id uuid='{C99025CB-5034-4960-83E1-95A09720212A}' />
+    </window>
+    <window class='dashboard' name='Conclusión y Recomendaciones'>
+      <viewpoints />
+      <active id='3' />
+      <simple-id uuid='{71258640-2238-4759-98B1-C4AEB544D653}' />
+    </window>
+    <window class='dashboard' name='Cierre'>
       <viewpoints />
       <active id='5' />
+      <simple-id uuid='{1AC5E400-5CCB-4746-8213-EE17354C2D90}' />
+    </window>
+    <window class='dashboard' maximized='true' name='A/B Testing'>
+      <viewpoints />
+      <active id='-1' />
       <simple-id uuid='{E65D3812-C29A-4F96-BE8A-F45C9DC00762}' />
     </window>
   </windows>
