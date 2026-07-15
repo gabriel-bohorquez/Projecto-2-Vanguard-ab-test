@@ -218,3 +218,63 @@ Proyecto de Data Analytics y A/B Testing compuesto por:
 ### Alcance real
 
 El proyecto evalúa asociación y diferencias observadas entre grupos dentro del experimento. No debe presentarse como una prueba absoluta de mejora de experiencia sin considerar fricción, errores, tiempos y limitaciones metodológicas.
+
+## Fuentes de datos y artefactos autorizados
+
+### Datos fuente originales
+
+Los siguientes archivos se consideran datos originales y deben preservarse sin sobrescritura:
+
+- `data_raw/df_final_demo.txt`
+- `data_raw/df_final_experiment_clients.txt`
+- `data_raw/df_final_web_data_pt_1.txt`
+- `data_raw/df_final_web_data_pt_2.txt`
+
+Aunque tienen extensión `.txt`, su contenido es CSV.
+
+### Datos procesados actuales
+
+Los siguientes archivos se consideran versiones procesadas provisionales:
+
+- `data_raw/df_demo_clean.csv`
+- `data_raw/df_experiment_clean.csv`
+- `data_raw/df_web_clean.csv`
+
+Estos archivos todavía deben auditarse para documentar exactamente:
+
+- transformaciones aplicadas;
+- exclusiones;
+- tratamiento de nulos;
+- eliminación de duplicados;
+- cambios de tipos;
+- consistencia entre claves.
+
+### Artefactos no autorizados como fuente de verdad
+
+Los siguientes archivos no deben utilizarse como fuente principal de KPIs o conclusiones hasta que sean validados:
+
+- `data_raw/vanguard_cleaned_todos unidos_(Gabriel).csv`
+- `vanguard_tableau_ready.csv`
+- `Proyecto.twbx`
+
+Motivos:
+
+- el dataset unido parece contener solo una parte del comportamiento web;
+- conserva duplicados;
+- presenta tipos mixtos en `Variation`;
+- no existe todavía trazabilidad completa de su construcción;
+- Tableau puede estar alimentado por métricas no validadas.
+
+### Fuente de verdad provisional
+
+La fuente de verdad provisional para reconstruir el análisis será:
+
+1. datos originales preservados;
+2. lógica de limpieza validada;
+3. datasets procesados regenerados de forma reproducible;
+4. KPIs recalculados desde una única definición;
+5. dataset final de Tableau generado únicamente después de validar métricas.
+
+### Regla operativa
+
+Ningún resultado público podrá considerarse definitivo hasta que pueda reproducirse desde los datos originales mediante notebooks o scripts ejecutables de principio a fin.
