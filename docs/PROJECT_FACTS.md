@@ -327,3 +327,76 @@ Ningún resultado público podrá considerarse definitivo hasta que pueda reprod
 
 Los datasets procesados definitivos deberán regenerarse exclusivamente desde los archivos fuente originales, con controles de calidad visibles y métricas de filas antes y después de cada transformación.
 
+## Validación cuantitativa de la limpieza actual
+
+### Datos demográficos
+
+- Filas originales: 70.609
+- Filas procesadas: 70.591
+- Filas eliminadas: 18
+- Porcentaje eliminado: aproximadamente 0,03 %
+- Duplicados originales: 0
+- Duplicados procesados: 0
+- `client_id` es único en ambos datasets.
+
+Los 18 registros eliminados contienen valores nulos en variables demográficas. La pérdida cuantitativa es mínima, pero debe quedar documentada.
+
+### Asignación experimental
+
+- Filas originales: 70.609
+- Filas procesadas: 50.500
+- Clientes sin asignación experimental: 20.109
+- Duplicados: 0
+- `client_id` es único.
+
+Distribución del experimento:
+
+- Test: 26.968 clientes, aproximadamente 53,40 %
+- Control: 23.532 clientes, aproximadamente 46,60 %
+
+La diferencia entre grupos debe documentarse como una limitación del diseño, aunque no invalida por sí sola el análisis.
+
+Los valores nulos de `Variation` representan clientes no incluidos en el experimento y no deben interpretarse automáticamente como errores de calidad.
+
+### Comportamiento web
+
+Parte 1:
+
+- Filas originales: 343.141
+- Duplicados eliminados: 2.095
+- Filas finales: 341.046
+
+Parte 2:
+
+- Filas originales: 412.264
+- Duplicados eliminados: 8.669
+- Filas finales: 403.595
+
+Dataset concatenado:
+
+- Filas finales: 744.641
+- Duplicados después del `concat`: 0
+- Nulos: 0
+
+No se detectaron duplicados cruzados entre ambas partes web.
+
+Claves únicas:
+
+- `client_id`: 120.157
+- `visitor_id`: 130.236
+- `visit_id`: 158.095
+
+Distribución de eventos:
+
+- `start`: 234.999
+- `step_1`: 162.797
+- `step_2`: 132.750
+- `step_3`: 111.589
+- `confirm`: 102.506
+
+La caída progresiva entre pasos es consistente con un funnel digital y debe analizarse por cliente, visita y grupo experimental antes de derivar KPIs definitivos.
+
+### Conclusión de calidad
+
+Los datasets procesados actuales son estructuralmente utilizables, pero todavía son provisionales. Los principales riesgos pendientes están en los merges posteriores, las definiciones de métricas y la duplicación de lógica entre notebooks.
+
