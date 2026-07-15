@@ -278,3 +278,52 @@ La fuente de verdad provisional para reconstruir el análisis será:
 ### Regla operativa
 
 Ningún resultado público podrá considerarse definitivo hasta que pueda reproducirse desde los datos originales mediante notebooks o scripts ejecutables de principio a fin.
+
+## Linaje actual de los datos procesados
+
+### Datos demográficos
+
+- Fuente: `data_raw/df_final_demo.txt`
+- Generado por: `notebooks/02_data_cleaning.ipynb`
+- Salida actual: `data_raw/df_demo_clean.csv`
+- Transformación principal: eliminación de todas las filas que contienen al menos un valor nulo mediante `dropna()`.
+- Estado: provisional.
+- Riesgo pendiente: cuantificar filas eliminadas, columnas responsables y posible sesgo de selección.
+
+### Asignación experimental
+
+- Fuente: `data_raw/df_final_experiment_clients.txt`
+- Generado por: `notebooks/02_data_cleaning.ipynb`
+- Salida actual: `data_raw/df_experiment_clean.csv`
+- Transformación principal: eliminación de clientes sin valor en `Variation`.
+- Estado: provisional.
+- Validaciones pendientes:
+  - valores permitidos de `Variation`;
+  - unicidad de `client_id`;
+  - número de clientes excluidos;
+  - distribución final entre Test y Control.
+
+### Comportamiento web
+
+- Fuentes:
+  - `data_raw/df_final_web_data_pt_1.txt`
+  - `data_raw/df_final_web_data_pt_2.txt`
+- Generado por: `notebooks/02_data_cleaning.ipynb`
+- Salida actual: `data_raw/df_web_clean.csv`
+- Transformaciones principales:
+  - eliminación de duplicados dentro de cada archivo;
+  - unión vertical mediante `pd.concat`;
+  - reinicio del índice.
+- Estado: provisional.
+- Riesgo pendiente: el notebook no elimina explícitamente duplicados después de concatenar ambas partes.
+- Validaciones pendientes:
+  - duplicados cruzados entre archivos;
+  - tipos de fecha;
+  - valores permitidos de `process_step`;
+  - consistencia de `client_id`, `visitor_id` y `visit_id`;
+  - orden temporal dentro de cada visita.
+
+### Regla futura de reconstrucción
+
+Los datasets procesados definitivos deberán regenerarse exclusivamente desde los archivos fuente originales, con controles de calidad visibles y métricas de filas antes y después de cada transformación.
+
