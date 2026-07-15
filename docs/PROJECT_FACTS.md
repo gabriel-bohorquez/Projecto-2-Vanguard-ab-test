@@ -633,3 +633,50 @@ El nuevo diseño mejora la tasa de finalización, pero simultáneamente aumenta 
 Esto indica una mejora de conversión acompañada por mayor fricción de navegación o confusión en determinados pasos. Por tanto, no debe describirse el rediseño como una mejora integral de la experiencia de usuario.
 
 La recomendación provisional es mantener el rediseño como base, identificar las transiciones concretas que concentran los retrocesos y optimizar esos puntos antes de una implantación definitiva.
+
+## Diagnóstico de transiciones de retroceso
+
+Se analizaron los retrocesos respetando la secuencia temporal de cada visita y considerando como retroceso cualquier transición hacia un paso anterior del funnel.
+
+### Principal hallazgo
+
+La mayor fuente de retrocesos del grupo Test es:
+
+- `step_1 → start`
+- Test: 6.404 retrocesos
+- Control: 2.490 retrocesos
+- Diferencia absoluta: +3.914 retrocesos en Test
+- Peso dentro de todos los retrocesos de Test: aproximadamente 39,45 %
+
+Esto indica que la principal fricción del rediseño se concentra al comienzo del proceso. Una proporción elevada de usuarios avanza desde `start` hasta `step_1`, pero posteriormente regresa a la pantalla inicial.
+
+### Otras transiciones con mayor deterioro en Test
+
+- `step_2 → step_1`: +1.752 retrocesos
+- `step_3 → start`: +1.168 retrocesos
+- `step_2 → start`: +864 retrocesos
+
+### Transiciones en las que Test presenta menos retrocesos
+
+- `confirm → start`
+- `step_3 → step_2`
+- `confirm → step_3`
+- `step_3 → step_1`
+
+### Interpretación de negocio
+
+El nuevo diseño mejora la tasa de finalización, pero aumenta significativamente la fricción en las primeras etapas del funnel.
+
+La evidencia sugiere que el principal problema no se encuentra de forma uniforme en todo el proceso, sino especialmente en la transición inicial entre `start` y `step_1`.
+
+Una vez superadas las primeras etapas, el comportamiento del grupo Test no empeora sistemáticamente y presenta incluso menos retrocesos en algunas transiciones avanzadas.
+
+### Recomendación
+
+Antes de una implementación completa, debería revisarse prioritariamente:
+
+- claridad de la pantalla inicial;
+- comprensión de la llamada a la acción;
+- expectativas generadas antes de entrar en `step_1`;
+- consistencia visual y funcional entre `start` y `step_1`;
+- posibles motivos por los que el usuario necesita regresar inmediatamente al inicio.
