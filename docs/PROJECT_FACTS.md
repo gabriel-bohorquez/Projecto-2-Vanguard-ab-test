@@ -400,3 +400,65 @@ La caída progresiva entre pasos es consistente con un funnel digital y debe ana
 
 Los datasets procesados actuales son estructuralmente utilizables, pero todavía son provisionales. Los principales riesgos pendientes están en los merges posteriores, las definiciones de métricas y la duplicación de lógica entre notebooks.
 
+## Definición oficial provisional de Completion Rate
+
+### Población correcta
+
+La población analítica válida está formada por los 50.500 clientes con asignación experimental:
+
+- Test: 26.968
+- Control: 23.532
+
+Todos los clientes experimentales tienen al menos un registro en el dataset web completo.
+
+### Definición oficial
+
+Completion Rate se define como:
+
+> Proporción de clientes asignados a Test o Control que alcanzan al menos una vez el paso `confirm`.
+
+Cada cliente se contabiliza una única vez.
+
+### Resultados validados
+
+Control:
+
+- Total: 23.532 clientes
+- Completaron: 15.434
+- Completion Rate: 65,59 %
+
+Test:
+
+- Total: 26.968 clientes
+- Completaron: 18.687
+- Completion Rate: 69,29 %
+
+Diferencia absoluta:
+
+- aproximadamente 3,71 puntos porcentuales a favor de Test.
+
+Mejora relativa:
+
+- aproximadamente 5,65 % respecto a Control.
+
+### Inconsistencia identificada
+
+`04_kpis_ab_testing.ipynb` utiliza `vanguard_cleaned_todos unidos_(Gabriel).csv` y obtiene:
+
+- Control: 63,09 %
+- Test: 68,28 %
+
+Este dataset contiene 58.391 clientes, pero solo 40.028 pertenecen realmente al experimento.
+
+Por tanto, esos resultados no representan correctamente la población A/B y no deben utilizarse como métricas oficiales.
+
+### Fuente de verdad provisional
+
+La lógica de `05_hypotesis_testing.ipynb`, reconstruida desde:
+
+- `df_experiment_clean.csv`
+- `df_web_clean.csv`
+
+se considera la fuente metodológica provisional para Completion Rate.
+
+El notebook `04_kpis_ab_testing.ipynb` deberá corregirse para utilizar la misma población, definición y lógica.
